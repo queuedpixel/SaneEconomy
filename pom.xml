@@ -18,6 +18,14 @@
 
     <repositories>
         <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io/</url>
+        </repository>
+        <repository>
             <id>vault</id>
             <name>Vault</name>
             <url>http://nexus.hc.to/content/repositories/pub_releases</url>
@@ -40,9 +48,9 @@
             <version>1.6</version>
         </dependency>
         <dependency>
-            <groupId>org.appledash</groupId>
-            <artifactId>sanelib</artifactId>
-            <version>0.3.7-SNAPSHOT</version>
+            <groupId>com.github.queuedpixel</groupId>
+            <artifactId>SaneLib</artifactId>
+            <version>queuedpixel-build-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

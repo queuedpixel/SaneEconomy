@@ -56,7 +56,7 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>org.appledash:sanelib</include>
+                                    <include>com.github.queuedpixel:SaneLib</include>
                                     <include>mysql:mysql-connector-java</include>
                                     <include>com.zaxxer:HikariCP</include>
                                     <include>org.slf4j:slf4j-api</include>
